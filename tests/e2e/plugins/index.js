@@ -23,3 +23,11 @@ module.exports = (on, config) => {
     supportFile: "tests/e2e/support/index.js"
   });
 };
+
+module.exports = (on, config) => {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  require("@cypress/code-coverage/task")(on, config);
+  // IMPORTANT to return the config object
+  // with the any changed environment variables
+  return config;
+};
