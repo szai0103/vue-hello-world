@@ -1,4 +1,11 @@
 {
   "pluginsFile": "tests/e2e/plugins/index.js",
-  "projectId": "ji9xu8"
+  "projectId": "ji9xu8",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output.xml",
+    "toConsole": true
+  },
+  "video": false,
+  "screenshotOnRunFailure": false
 }
