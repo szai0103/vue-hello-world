@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "NODE_ENV=test vue-cli-service test:e2e",
+    "test report": "cypress run --reporter junit \\\n  --reporter-options \"mochaFile=results/my-test-output.xml,toConsole=true\" \n",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
