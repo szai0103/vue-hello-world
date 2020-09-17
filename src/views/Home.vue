@@ -1,6 +1,9 @@
 <template>
   <div class="home">
     <HelloWorld msg="Hello, world!" />
+    <h3>
+      This application version number is: v {{ $store.getters.appVersion }}
+    </h3>
   </div>
 </template>
 
