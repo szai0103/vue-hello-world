@@ -32,3 +32,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Cypress Integration Tests Result
+[![vue-hello-world](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/ji9xu8/master&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/ji9xu8/runs)
