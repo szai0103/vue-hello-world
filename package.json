@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
     "prebuild": "npm --no-git-tag-version version patch",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "NODE_ENV=test vue-cli-service test:e2e",
-    "test report": "cypress run --reporter mochawesome",
-    "lint": "vue-cli-service lint",
-    "cypress:open": "cypress open"
+    "cypress:record": "cypress run --record --key ca52d264-6aca-4a00-a81a-d9f68fb9cbdd",
+    "cypress:mocha": "cypress run --reporter mochawesome"
   },
   "dependencies": {
     "babel-plugin-istanbul": "^6.0.0",
@@ -55,7 +55,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "npm run lint && npm run cypress:record"
     }
   }
 }

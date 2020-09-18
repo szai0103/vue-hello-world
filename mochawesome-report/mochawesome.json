@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "tests": 3,
+    "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-18T06:26:51.034Z",
-    "end": "2020-09-18T06:26:53.282Z",
-    "duration": 2248,
-    "testsRegistered": 1,
+    "start": "2020-09-18T10:54:46.618Z",
+    "end": "2020-09-18T10:54:47.167Z",
+    "duration": 549,
+    "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,49 +18,87 @@
   },
   "results": [
     {
-      "uuid": "e1137211-ac94-4be7-9c73-5611ee528e0d",
+      "uuid": "85365042-4842-48cd-961c-5e3f595e7145",
       "title": "",
-      "fullFile": "cypress/integration/sample_test.spec.js",
-      "file": "cypress/integration/sample_test.spec.js",
+      "fullFile": "cypress/integration/my-tests/window_sample.spec.js",
+      "file": "cypress/integration/my-tests/window_sample.spec.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "53a4431f-e82a-4c48-a5e9-9f664a2313d7",
-          "title": "My First Test",
+          "uuid": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
+          "title": "Window",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "clicking \"type\" navigates to a new url",
-              "fullTitle": "My First Test clicking \"type\" navigates to a new url",
+              "title": "cy.window() - get the global window object",
+              "fullTitle": "Window cy.window() - get the global window object",
               "timedOut": null,
-              "duration": 1321,
+              "duration": 311,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy.visit('https://example.cypress.io');\ncy.contains('type').click(); // Should be on a new URL which includes '/commands/actions'\ncy.url().should('include', '/commands/actions'); // Get an input, type into it and verify that the value has been updated\ncy.get('.action-email').type('fake@email.com').should('have.value', 'fake@email.com');",
+              "code": "cy.window().should('have.property', 'top');",
               "err": {},
-              "uuid": "8899ea6c-47c8-4b34-92d3-2ca260719dc8",
-              "parentUUID": "53a4431f-e82a-4c48-a5e9-9f664a2313d7",
+              "uuid": "a1588b92-8391-4497-b243-95a972544b0e",
+              "parentUUID": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "cy.document() - get the document object",
+              "fullTitle": "Window cy.document() - get the document object",
+              "timedOut": null,
+              "duration": 134,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.document().should('have.property', 'charset').and('eq', 'UTF-8');",
+              "err": {},
+              "uuid": "aac14333-ae98-4b0f-8f32-22b93583e24d",
+              "parentUUID": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "cy.title() - get the title",
+              "fullTitle": "Window cy.title() - get the title",
+              "timedOut": null,
+              "duration": 70,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().should('include', 'Hello World');",
+              "err": {},
+              "uuid": "bb2ea266-0e49-419c-9b3c-0d3cb45b9e01",
+              "parentUUID": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "8899ea6c-47c8-4b34-92d3-2ca260719dc8"
+            "a1588b92-8391-4497-b243-95a972544b0e",
+            "aac14333-ae98-4b0f-8f32-22b93583e24d",
+            "bb2ea266-0e49-419c-9b3c-0d3cb45b9e01"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1321,
+          "duration": 515,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -93,10 +131,7 @@
       "version": "6.1.1"
     },
     "marge": {
-      "options": {
-        "mochaFile": "results/my-test-output.xml",
-        "toConsole": true
-      },
+      "options": null,
       "version": "5.1.0"
     }
   }

@@ -1,11 +1,9 @@
 {
+  "baseUrl": "http://localhost:8080",
   "pluginsFile": "tests/e2e/plugins/index.js",
   "projectId": "ji9xu8",
   "reporter": "junit",
-  "reporterOptions": {
-    "mochaFile": "results/my-test-output.xml",
-    "toConsole": true
-  },
+  "integrationFolder": "cypress/integration/my-tests",
   "video": false,
   "screenshotOnRunFailure": false
 }
