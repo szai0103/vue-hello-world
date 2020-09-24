@@ -1,0 +1,753 @@
+{
+  "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/registerServiceWorker.ts": {
+    "path": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/registerServiceWorker.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 7
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 12
+        },
+        "end": {
+          "line": 7,
+          "column": 65
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 12
+        },
+        "end": {
+          "line": 10,
+          "column": 63
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 12
+        },
+        "end": {
+          "line": 13,
+          "column": 68
+        }
+      },
+      "5": {
+        "start": {
+          "line": 16,
+          "column": 12
+        },
+        "end": {
+          "line": 16,
+          "column": 55
+        }
+      },
+      "6": {
+        "start": {
+          "line": 19,
+          "column": 12
+        },
+        "end": {
+          "line": 19,
+          "column": 69
+        }
+      },
+      "7": {
+        "start": {
+          "line": 22,
+          "column": 12
+        },
+        "end": {
+          "line": 22,
+          "column": 89
+        }
+      },
+      "8": {
+        "start": {
+          "line": 25,
+          "column": 12
+        },
+        "end": {
+          "line": 25,
+          "column": 78
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 8
+          },
+          "end": {
+            "line": 5,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 16
+          },
+          "end": {
+            "line": 8,
+            "column": 9
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 8
+          },
+          "end": {
+            "line": 9,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 21
+          },
+          "end": {
+            "line": 11,
+            "column": 9
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 8
+          },
+          "end": {
+            "line": 12,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 17
+          },
+          "end": {
+            "line": 14,
+            "column": 9
+          }
+        },
+        "line": 12
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 8
+          },
+          "end": {
+            "line": 15,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 22
+          },
+          "end": {
+            "line": 17,
+            "column": 9
+          }
+        },
+        "line": 15
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 8
+          },
+          "end": {
+            "line": 18,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 18
+          },
+          "end": {
+            "line": 20,
+            "column": 9
+          }
+        },
+        "line": 18
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 8
+          },
+          "end": {
+            "line": 21,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 18
+          },
+          "end": {
+            "line": 23,
+            "column": 9
+          }
+        },
+        "line": 21
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 8
+          },
+          "end": {
+            "line": 24,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 21
+          },
+          "end": {
+            "line": 26,
+            "column": 9
+          }
+        },
+        "line": 24
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 3,
+              "column": 0
+            },
+            "end": {
+              "line": 28,
+              "column": 1
+            }
+          },
+          {
+            "start": {
+              "line": 3,
+              "column": 0
+            },
+            "end": {
+              "line": 28,
+              "column": 1
+            }
+          }
+        ],
+        "line": 3
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "b": {
+      "0": [
+        0,
+        5
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/registerServiceWorker.ts",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/registerServiceWorker.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,+BAA+B;AAE/B,OAAO,EAAE,QAAQ,EAAE,MAAM,yBAAyB,CAAC;AAEnD,IAAI,OAAO,CAAC,GAAG,CAAC,QAAQ,KAAK,YAAY,EAAE;IACzC,QAAQ,CAAC,GAAG,OAAO,CAAC,GAAG,CAAC,QAAQ,mBAAmB,EAAE;QACnD,KAAK;YACH,OAAO,CAAC,GAAG,CACT,uDAAuD;gBACrD,+CAA+C,CAClD,CAAC;QACJ,CAAC;QACD,UAAU;YACR,OAAO,CAAC,GAAG,CAAC,qCAAqC,CAAC,CAAC;QACrD,CAAC;QACD,MAAM;YACJ,OAAO,CAAC,GAAG,CAAC,0CAA0C,CAAC,CAAC;QAC1D,CAAC;QACD,WAAW;YACT,OAAO,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC;QAC7C,CAAC;QACD,OAAO;YACL,OAAO,CAAC,GAAG,CAAC,2CAA2C,CAAC,CAAC;QAC3D,CAAC;QACD,OAAO;YACL,OAAO,CAAC,GAAG,CACT,+DAA+D,CAChE,CAAC;QACJ,CAAC;QACD,KAAK,CAAC,KAAK;YACT,OAAO,CAAC,KAAK,CAAC,2CAA2C,EAAE,KAAK,CAAC,CAAC;QACpE,CAAC;KACF,CAAC,CAAC;CACJ",
+      "sourcesContent": [
+        "/* eslint-disable no-console */\n\nimport { register } from \"register-service-worker\";\n\nif (process.env.NODE_ENV === \"production\") {\n  register(`${process.env.BASE_URL}service-worker.js`, {\n    ready() {\n      console.log(\n        \"App is being served from cache by a service worker.\\n\" +\n          \"For more details, visit https://goo.gl/AFskqB\"\n      );\n    },\n    registered() {\n      console.log(\"Service worker has been registered.\");\n    },\n    cached() {\n      console.log(\"Content has been cached for offline use.\");\n    },\n    updatefound() {\n      console.log(\"New content is downloading.\");\n    },\n    updated() {\n      console.log(\"New content is available; please refresh.\");\n    },\n    offline() {\n      console.log(\n        \"No internet connection found. App is running in offline mode.\"\n      );\n    },\n    error(error) {\n      console.error(\"Error during service worker registration:\", error);\n    }\n  });\n}\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "31256582c9904bde566cc275aa5734e6a366db2c"
+  },
+  "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/components/HelloWorld.vue": {
+    "path": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/components/HelloWorld.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 17
+        },
+        "end": {
+          "line": 4,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 40
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 15
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 5
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/components/HelloWorld.vue.ts",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/components/HelloWorld.vue"
+      ],
+      "names": [],
+      "mappings": ";AAOA,OAAO,EAAE,SAAS,EAAE,IAAI,EAAE,GAAG,EAAE,MAAM,wBAAwB,CAAC;AAG9D,IAAqB,UAAU,GAA/B,MAAqB,UAAW,SAAQ,GAAG;CAE1C,CAAA;AADS;IAAP,IAAI,EAAE;uCAAsB;AADV,UAAU;IAD9B,SAAS;GACW,UAAU,CAE9B;eAFoB,UAAU",
+      "sourcesContent": [
+        "\n\n\n\n\n\n\nimport { Component, Prop, Vue } from \"vue-property-decorator\";\n\n@Component\nexport default class HelloWorld extends Vue {\n  @Prop() private msg!: string;\n}\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fc6c55abfeb2c414fda01c0d55b0f50babecc7d3"
+  },
+  "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/views/Home.vue": {
+    "path": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/views/Home.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 11
+        },
+        "end": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 9
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/views/Home.vue.ts",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/views/Home.vue"
+      ],
+      "names": [],
+      "mappings": ";AAUA,OAAO,EAAE,SAAS,EAAE,GAAG,EAAE,MAAM,wBAAwB,CAAC;AACxD,OAAO,UAAU,MAAM,6BAA6B,CAAC,CAAC,wBAAwB;AAO9E,IAAqB,IAAI,GAAzB,MAAqB,IAAK,SAAQ,GAAG;CAAG,CAAA;AAAnB,IAAI;IALxB,SAAS,CAAC;QACT,UAAU,EAAE;YACV,UAAU;SACX;KACF,CAAC;GACmB,IAAI,CAAe;eAAnB,IAAI",
+      "sourcesContent": [
+        "\n\n\n\n\n\n\n\n\n\nimport { Component, Vue } from \"vue-property-decorator\";\nimport HelloWorld from \"@/components/HelloWorld.vue\"; // @ is an alias to /src\n\n@Component({\n  components: {\n    HelloWorld\n  }\n})\nexport default class Home extends Vue {}\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f7175d90d1e254591c78a9bacf6ecac00b6172cb"
+  },
+  "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/router/index.ts": {
+    "path": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/router/index.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 19
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 15
+        },
+        "end": {
+          "line": 19,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 17,
+          "column": 25
+        },
+        "end": {
+          "line": 17,
+          "column": 85
+        }
+      },
+      "3": {
+        "start": {
+          "line": 20,
+          "column": 15
+        },
+        "end": {
+          "line": 24,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 19
+          },
+          "end": {
+            "line": 17,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 25
+          },
+          "end": {
+            "line": 17,
+            "column": 85
+          }
+        },
+        "line": 17
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 0,
+      "3": 5
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/router/index.ts",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/router/index.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,GAAG,MAAM,KAAK,CAAC;AACtB,OAAO,SAA0B,MAAM,YAAY,CAAC;AACpD,OAAO,IAAI,MAAM,mBAAmB,CAAC;AAErC,GAAG,CAAC,GAAG,CAAC,SAAS,CAAC,CAAC;AAEnB,MAAM,MAAM,GAAkB;IAC5B;QACE,IAAI,EAAE,GAAG;QACT,IAAI,EAAE,MAAM;QACZ,SAAS,EAAE,IAAI;KAChB;IACD;QACE,IAAI,EAAE,QAAQ;QACd,IAAI,EAAE,OAAO;QACb,6BAA6B;QAC7B,mEAAmE;QACnE,kDAAkD;QAClD,SAAS,EAAE,GAAG,EAAE,CACd,MAAM,CAAC,+BAA+B,CAAC,oBAAoB,CAAC;KAC/D;CACF,CAAC;AAEF,MAAM,MAAM,GAAG,IAAI,SAAS,CAAC;IAC3B,IAAI,EAAE,SAAS;IACf,IAAI,EAAE,OAAO,CAAC,GAAG,CAAC,QAAQ;IAC1B,MAAM;CACP,CAAC,CAAC;AAEH,eAAe,MAAM,CAAC",
+      "sourcesContent": [
+        "import Vue from \"vue\";\nimport VueRouter, { RouteConfig } from \"vue-router\";\nimport Home from \"../views/Home.vue\";\n\nVue.use(VueRouter);\n\nconst routes: RouteConfig[] = [\n  {\n    path: \"/\",\n    name: \"Home\",\n    component: Home\n  },\n  {\n    path: \"/about\",\n    name: \"About\",\n    // route level code-splitting\n    // this generates a separate chunk (about.[hash].js) for this route\n    // which is lazy-loaded when the route is visited.\n    component: () =>\n      import(/* webpackChunkName: \"about\" */ \"../views/About.vue\")\n  }\n];\n\nconst router = new VueRouter({\n  mode: \"history\",\n  base: process.env.BASE_URL,\n  routes\n});\n\nexport default router;\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2e9bebf18585c977dfdaa3e87d6c58ba3624c5f2"
+  },
+  "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/store/index.ts": {
+    "path": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/store/index.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 14
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 12
+        },
+        "end": {
+          "line": 12,
+          "column": 53
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 20
+          },
+          "end": {
+            "line": 11,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 29
+          },
+          "end": {
+            "line": 13,
+            "column": 9
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 24
+          },
+          "end": {
+            "line": 7,
+            "column": 58
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 24
+            },
+            "end": {
+              "line": 7,
+              "column": 51
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 55
+            },
+            "end": {
+              "line": 7,
+              "column": 58
+            }
+          }
+        ],
+        "line": 7
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 5
+    },
+    "f": {
+      "0": 5
+    },
+    "b": {
+      "0": [
+        5,
+        5
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/store/index.ts",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/store/index.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,GAAG,MAAM,KAAK,CAAC;AACtB,OAAO,IAAI,MAAM,MAAM,CAAC;AACxB,OAAO,EAAE,OAAO,EAAE,MAAM,oBAAoB,CAAC;AAE7C,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC;AAEd,eAAe,IAAI,IAAI,CAAC,KAAK,CAAC;IAC5B,KAAK,EAAE;QACL,cAAc,EAAE,OAAO,CAAC,GAAG,CAAC,eAAe,IAAI,GAAG;QAClD,WAAW,EAAE,OAAO,CAAC,GAAG,CAAC,QAAQ;KAClC;IACD,OAAO,EAAE;QACP,UAAU,EAAE,KAAK,CAAC,EAAE;YAClB,OAAO,OAAO,GAAG,GAAG,GAAG,KAAK,CAAC,WAAW,CAAC;QAC3C,CAAC;KACF;IACD,SAAS,EAAE,EAAE;IACb,OAAO,EAAE,EAAE;IACX,OAAO,EAAE,EAAE;CACZ,CAAC,CAAC",
+      "sourcesContent": [
+        "import Vue from \"vue\";\nimport Vuex from \"vuex\";\nimport { version } from \"../../package.json\";\n\nVue.use(Vuex);\n\nexport default new Vuex.Store({\n  state: {\n    packageVersion: process.env.PACKAGE_VERSION || \"0\",\n    environment: process.env.NODE_ENV\n  },\n  getters: {\n    appVersion: state => {\n      return version + \" \" + state.environment;\n    }\n  },\n  mutations: {},\n  actions: {},\n  modules: {}\n});\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c9325c004c104ee0487a0931d30ebaec3393381b"
+  },
+  "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/main.ts": {
+    "path": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/main.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 33
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 18
+        }
+      },
+      "2": {
+        "start": {
+          "line": 10,
+          "column": 17
+        },
+        "end": {
+          "line": 10,
+          "column": 23
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 12
+          },
+          "end": {
+            "line": 10,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 17
+          },
+          "end": {
+            "line": 10,
+            "column": 23
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 5,
+      "2": 5
+    },
+    "f": {
+      "0": 5
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/main.ts",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/sevilzaimova/WORKSPACE/DSS-Onbording/vue-hello-world/src/main.ts"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,GAAG,MAAM,KAAK,CAAC;AACtB,OAAO,GAAG,MAAM,WAAW,CAAC;AAC5B,OAAO,yBAAyB,CAAC;AACjC,OAAO,MAAM,MAAM,UAAU,CAAC;AAC9B,OAAO,KAAK,MAAM,SAAS,CAAC;AAE5B,GAAG,CAAC,MAAM,CAAC,aAAa,GAAG,KAAK,CAAC;AAEjC,IAAI,GAAG,CAAC;IACN,MAAM;IACN,KAAK;IACL,MAAM,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,GAAG,CAAC;CACpB,CAAC,CAAC,MAAM,CAAC,MAAM,CAAC,CAAC",
+      "sourcesContent": [
+        "import Vue from \"vue\";\nimport App from \"./App.vue\";\nimport \"./registerServiceWorker\";\nimport router from \"./router\";\nimport store from \"./store\";\n\nVue.config.productionTip = false;\n\nnew Vue({\n  router,\n  store,\n  render: h => h(App)\n}).$mount(\"#app\");\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7ab9c8afc0113d37fd5a66e7af3849487d51c52b"
+  }
+}

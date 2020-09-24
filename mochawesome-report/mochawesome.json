@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-18T10:54:46.618Z",
-    "end": "2020-09-18T10:54:47.167Z",
-    "duration": 549,
+    "start": "2020-09-24T08:49:35.301Z",
+    "end": "2020-09-24T08:49:35.909Z",
+    "duration": 608,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "85365042-4842-48cd-961c-5e3f595e7145",
+      "uuid": "bc98086d-952e-4787-931d-c6ac6fe95134",
       "title": "",
       "fullFile": "cypress/integration/my-tests/window_sample.spec.js",
       "file": "cypress/integration/my-tests/window_sample.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
+          "uuid": "d57fff83-3923-4992-ad65-b6453ac81112",
           "title": "Window",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "cy.window() - get the global window object",
               "fullTitle": "Window cy.window() - get the global window object",
               "timedOut": null,
-              "duration": 311,
+              "duration": 348,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.window().should('have.property', 'top');",
               "err": {},
-              "uuid": "a1588b92-8391-4497-b243-95a972544b0e",
-              "parentUUID": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
+              "uuid": "9d54387f-b7cf-44d6-9ec5-6f8abd2ac108",
+              "parentUUID": "d57fff83-3923-4992-ad65-b6453ac81112",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "cy.document() - get the document object",
               "fullTitle": "Window cy.document() - get the document object",
               "timedOut": null,
-              "duration": 134,
+              "duration": 124,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "cy.document().should('have.property', 'charset').and('eq', 'UTF-8');",
               "err": {},
-              "uuid": "aac14333-ae98-4b0f-8f32-22b93583e24d",
-              "parentUUID": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
+              "uuid": "00160893-8574-44ba-bca0-afc2dbbce2db",
+              "parentUUID": "d57fff83-3923-4992-ad65-b6453ac81112",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "cy.title() - get the title",
               "fullTitle": "Window cy.title() - get the title",
               "timedOut": null,
-              "duration": 70,
+              "duration": 62,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "cy.title().should('include', 'Hello World');",
               "err": {},
-              "uuid": "bb2ea266-0e49-419c-9b3c-0d3cb45b9e01",
-              "parentUUID": "19f02f12-1662-4726-a8cf-8428ce4ef9bb",
+              "uuid": "66a7cb10-7f90-4737-95e2-18af5fc7f48e",
+              "parentUUID": "d57fff83-3923-4992-ad65-b6453ac81112",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a1588b92-8391-4497-b243-95a972544b0e",
-            "aac14333-ae98-4b0f-8f32-22b93583e24d",
-            "bb2ea266-0e49-419c-9b3c-0d3cb45b9e01"
+            "9d54387f-b7cf-44d6-9ec5-6f8abd2ac108",
+            "00160893-8574-44ba-bca0-afc2dbbce2db",
+            "66a7cb10-7f90-4737-95e2-18af5fc7f48e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 515,
+          "duration": 534,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

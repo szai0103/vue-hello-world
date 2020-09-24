@@ -1,23 +1,26 @@
 {
   "name": "vue-hello-world",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
-    "prebuild": "npm --no-git-tag-version version patch",
+    "release": "standard-version",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "NODE_ENV=test vue-cli-service test:e2e",
     "cypress:record": "cypress run --record --key ca52d264-6aca-4a00-a81a-d9f68fb9cbdd",
-    "cypress:mocha": "cypress run --reporter mochawesome"
+    "cypress:mocha": "cypress run --reporter mochawesome",
+    "cypress:coverage": "npx nyc report --reporter=text-summary",
+    "cypress:lcov": "nyc report --reporter=lcov --reporter=text",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^11.0.0",
     "babel-plugin-istanbul": "^6.0.0",
     "core-js": "^3.6.5",
     "istanbul-lib-coverage": "^3.0.0",
     "mochawesome": "^6.1.1",
-    "nyc": "^15.1.0",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
@@ -48,14 +51,27 @@
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.3.0",
     "node-sass": "^4.12.0",
+    "nyc": "^15.1.0",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
+    "standard-version": "^9.0.0",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run cypress:record"
+      "pre-commit": "npm run lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "nyc": {
+    "exclude": "src/serviceWorker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szai0103/vue-hello-world.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
